@@ -65,7 +65,6 @@ public class PetTest {
         // проверка 2
         pet.setEnergy(0);
         assertEquals(0, pet.getEnergy());
-
     }
 
     @Test
@@ -77,7 +76,6 @@ public class PetTest {
         // проверка 2
         pet.setHungry(0);
         assertEquals(0, pet.getHungry());
-
     }
 
     @Test
@@ -89,11 +87,10 @@ public class PetTest {
         // проверка 2
         pet.setPurity(0);
         assertEquals(0, pet.getPurity());
-
     }
 
     @Test
-    void conditionPetLive() {
+    void petDied() {
 
         // проверка 1
         pet.petDied();
@@ -130,7 +127,6 @@ public class PetTest {
 
         // проверка 5
         assertEquals(1, pet.getExp());
-
     }
 
     @Test
@@ -168,7 +164,6 @@ public class PetTest {
 
         // проверка 4
         assertEquals(1, pet.getAge());
-
     }
 
     @Test
@@ -186,6 +181,5 @@ public class PetTest {
 
         // проверка 4
         assertEquals(1, pet.getAge());
-
     }
 }
